@@ -5,8 +5,8 @@
   "description": "Zoom sample app for web client WebSDK",
   "main": "index.js",
   "scripts": {
-    "start": "set NODE_ENV=development && set BABEL_ENV=development && webpack-dev-server --config webpack.config.dev.js --https false --open http://localhost:8080/index.html --watch",
-    "https": "set NODE_ENV=development && set BABEL_ENV=development && webpack-dev-server --config webpack.config.dev.js --https true --open https://localhost:8080/index.html --watch"
+    "start": "set NODE_ENV=development && set BABEL_ENV=development && webpack-dev-server --config webpack.config.dev.js --https false --open https://zoom-meet-live.herokuapp.com/index.html --watch",
+    "https": "set NODE_ENV=development && set BABEL_ENV=development && webpack-dev-server --config webpack.config.dev.js --https true --open https://zoom-meet-live.herokuapp.com/index.html --watch"
   },
   "keywords": [
     "zoom",

@@ -66,7 +66,7 @@ module.exports = {
     devServer: {
         https,
         cert: './zoom-meet-live.herokuapp.com.crt',
-        key: './pszoom-meet-live.herokuapp.com.key',
+        key: './zoom-meet-live.herokuapp.com.key',
         host: '0.0.0.0',
         port: 47105,
         hot: true,

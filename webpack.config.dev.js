@@ -65,17 +65,17 @@ module.exports = {
     target: 'web',
     devServer: {
         https,
-        cert: './localhost.crt',
-        key: './localhost.key',
+        cert: './zoom-meet-live.herokuapp.com.crt',
+        key: './pszoom-meet-live.herokuapp.com.key',
         host: '0.0.0.0',
-        port: 8080,
+        port: 47105,
         hot: true,
         overlay: true,
         historyApiFallback: false,
         watchContentBase: true,
         disableHostCheck: true,
         headers: {
-            'Access-Control-Allow-Origin': https ? 'https://0.0.0.0:8080' : 'http://0.0.0.0:8080'
+            'Access-Control-Allow-Origin': https ? 'https://0.0.0.0:47105' : 'http://0.0.0.0:47105'
         }
     },
     mode: 'development',

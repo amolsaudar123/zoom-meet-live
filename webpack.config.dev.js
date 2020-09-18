@@ -68,7 +68,7 @@ module.exports = {
         cert: './zoom-meet-live.herokuapp.com.crt',
         key: './zoom-meet-live.herokuapp.com.key',
         host: '0.0.0.0',
-        port: process.env.PORT || '8080',
+        port: '8080',
         hot: true,
         overlay: true,
         historyApiFallback: false,
